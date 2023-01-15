@@ -1,0 +1,52 @@
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+}
+
+.ant-layout-header {}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  z-index: 99;
+}
+.site-layout-content {
+  overflow: auto !important;
+}
+.ant-layout-content {
+  background: #f0f2f5 !important;
+  height: 100vh;
+  overflow: auto;
+  padding-top: 5% !important;
+}
+
+.logo {
+  float: left;
+  width: auto;
+  height: 50px;
+  margin: 7px 20px 10px 0;
+}
+
+.ant-row-rtl.logo {
+  float: right;
+  margin: 10px 0 10px 24px;
+}
+
+.content-box {
+  padding: '0 50px' 
+}
+
+@media only screen and (max-width: 768px) {
+  .content-box {
+    padding: '0px' 
+  }
+
+  .site-layout-content {
+    padding: 5px;
+  }
+
+
+}
